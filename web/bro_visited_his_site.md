@@ -43,4 +43,4 @@ To access the flag, we can either put `{{url_for.__globals__['current_app'].conf
 
 ![bro_visited_his_site solution](./images/bro_visited_his_site_sol.png "bro_visited_his_site solution")
 
-**Flag**: `jellyCTF{keep_on_piping_jelly}`
+**Flag**: `jellyCTF{f1agp1ll3d_t3mpl4te_1nj3ct10nmaxx3r}`
