@@ -26,7 +26,7 @@ https://bro-visited-his-site.jellyc.tf/
 
 **Solution**: 
 
-The website takes whatever's in the text box and outputs `[text]pilled [text]maxxer`. I can't access the app config by inputting `{{config}}` because of these lines in the source code:
+The website takes whatever's in the text box and outputs `[text]pilled [text]maxxer`. We can use double brackets to execute code as well. For example, when I input `{{7*7}}` I get `49pilled 49maxxer`. However I can't access the app config by inputting `{{config}}` because of these lines in the source code:
 
 ```python
     return render_template_string(f'''
@@ -37,9 +37,9 @@ The website takes whatever's in the text box and outputs `[text]pilled [text]max
         </p>
 ```
 
-I did some Googling and found a similar challenge: https://ctftime.org/writeup/11036.
+I unlocked hint 2 and got a link to this write up: https://ctftime.org/writeup/10895
 
-To access the flag, we can either put `{{url_for.__globals__['current_app'].config['FLAG']}}` into the text box or `https://bro-visited-his-site.jellyc.tf/response?word={{url_for.__globals__['current_app'].config['FLAG']}}` into the URL bar.
+To access the flag, we can either put `{{url_for.__globals__['current_app'].config['FLAG']}}` into the text box or `https://bro-visited-his-site.jellyc.tf/response?word={{url_for.__globals__['current_app'].config['FLAG']}}` into the address bar.
 
 ![bro_visited_his_site solution](./images/bro_visited_his_site_sol.png "bro_visited_his_site solution")
 
