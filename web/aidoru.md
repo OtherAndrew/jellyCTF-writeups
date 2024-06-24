@@ -1,4 +1,4 @@
-# bro_visited_his_site
+# aidoru
 
 **Difficulty**: Easy
 
@@ -48,7 +48,7 @@ Try a hash cracking tool
 
 By examining the website source, I saw that each image links to `/covers/[some hash]`. I took Rie's hash (`41895503f71f59ce931bd3590c577b3c`) and put it into https://www.dcode.fr/hash-function, which told me that it decoded to `rie` with MD5.
 
-Encoding `jelly` with MD5 gives me `328356824c8487cf314aa350d11ae145`. This is what we see when we go to `https://aidoru.jellyc.tf/covers/328356824c8487cf314aa350d11ae145`:
+Encoding `jelly` with MD5 gives me `328356824c8487cf314aa350d11ae145`. This is what we see when we go to https://aidoru.jellyc.tf/covers/328356824c8487cf314aa350d11ae145:
 
 ![aidoru website jelly](./images/aidoru_jelly.png " aidoru jelly")
 
