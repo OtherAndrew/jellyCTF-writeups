@@ -14,9 +14,9 @@ Author: arepi
 
 **Solution**: 
 
-I saw this on Jelly's stream:
+I saw this on Jelly's stream ([1:27:45](https://www.youtube.com/live/QH8LKkIVHzI?t=5265)):
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/QH8LKkIVHzI?&amp;start=5264" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Jelly's jellyCTF stream](https://img.youtube.com/vi/QH8LKkIVHzI/0.jpg)](https://www.youtube.com/live/QH8LKkIVHzI?t=5265)
 
 Visit https://jellyc.tf/robots.txt.
 
