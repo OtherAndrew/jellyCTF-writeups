@@ -20,13 +20,13 @@ Author: Sheepiroo
 https://aidoru.jellyc.tf/
 ```
 
-![aidoru website](./images/aidoru.png " aidoru")
+![aidoru website](./images/aidoru.png "aidoru")
 
 **Solution**: 
 
 Clicking on Jelly's picture takes us to a 404 page.
 
-![aidoru website 404](./images/aidoru_404.png " aidoru 404")
+![aidoru website 404](./images/aidoru_404.png "aidoru 404")
 
 I had to unlock both hints for this one.
 
@@ -50,10 +50,10 @@ By examining the website source, I saw that each image links to `/covers/[some h
 
 Encoding `jelly` with MD5 gives me `328356824c8487cf314aa350d11ae145`. This is what we see when we go to https://aidoru.jellyc.tf/covers/328356824c8487cf314aa350d11ae145:
 
-![aidoru website jelly](./images/aidoru_jelly.png " aidoru jelly")
+![aidoru website jelly](./images/aidoru_jelly.png "aidoru jelly")
 
 When I opened up the Elements tab in Chrome devtools:
 
-![aidoru solution](./images/aidoru_sol.png " aidoru sol")
+![aidoru solution](./images/aidoru_sol.png "aidoru sol")
 
 **Flag**: `jellyCTF{u_r_the_p3rfect_ultimate_IDOR}`
