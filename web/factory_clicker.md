@@ -6,11 +6,9 @@
 
 **Description**:
 
-```
-Author: LISP BEAMER
-
-https://factory-clicker.jellyc.tf/
-```
+> Author: LISP BEAMER
+> 
+> https://factory-clicker.jellyc.tf/
 
 ![factory_clicker website](./images/factory_clicker.png "factory_clicker")
 

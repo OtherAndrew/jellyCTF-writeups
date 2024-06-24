@@ -6,11 +6,9 @@
 
 **Description**:
 
-```
-there's a flag hidden somewhere on this site (jellyc.tf) in a common location for websites, see if you can find it
-
-Author: arepi
-```
+> there's a flag hidden somewhere on this site (jellyc.tf) in a common location for websites, see if you can find it
+> 
+> Author: arepi
 
 **Solution**: 
 

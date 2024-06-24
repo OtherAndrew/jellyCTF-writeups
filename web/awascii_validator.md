@@ -52,6 +52,7 @@ wa awa wa awa awa awa
 # concatenated with starting "awa"
 awawawawawawa awa awawawawa awawa awa awa awa awawa awa awawawawawawawawa awawa awa awawa awa awawawawa awawa awa awa awa awa awa awa awa awawa awawa awawa awa awa awa
 ```
+
 ![awascii_validator solution](./images/awascii_validator_sol.png "awascii_validator solution")
 
 **Flag**: `jellyCTF{m4st3rs_1n_awat1sm}`

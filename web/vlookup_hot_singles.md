@@ -6,15 +6,13 @@
 
 **Description**:
 
-```
-looks like this is some kind of dating site for nerds? weird, figure out who the admin is and access their panel
-
-50 point hint: what to do, but not how to do it
-
-Author: arepi
-
-https://vlookup-hot-singles.jellyc.tf/
-```
+> looks like this is some kind of dating site for nerds? weird, figure out who the admin is and access their panel
+> 
+> 50 point hint: what to do, but not how to do it
+> 
+> Author: arepi
+> 
+> https://vlookup-hot-singles.jellyc.tf/
 
 ![vlookup_hot_singles website](./images/vlookup_hot_singles.png "vlookup_hot_singles")
 

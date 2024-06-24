@@ -6,19 +6,17 @@
 
 **Description**:
 
-```
-bro stored his secrets in the flask app config
-
-note: this is not /app/flag.txt - that's bro_visited_his_site_2
-
-10 point hint: attack type
-
-20 point hint: writeup for similar problem
-
-Author: arepi
-
-https://bro-visited-his-site.jellyc.tf/
-```
+> bro stored his secrets in the flask app config
+> 
+> note: this is not /app/flag.txt - that's bro_visited_his_site_2
+> 
+> 10 point hint: attack type
+> 
+> 20 point hint: writeup for similar problem
+> 
+> Author: arepi
+> 
+> https://bro-visited-his-site.jellyc.tf/
 
 ![bro_visited_his_site website input](./images/bro_visited_his_site_input.png "bro_visited_his_site input")
 
