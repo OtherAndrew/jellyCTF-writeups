@@ -1,46 +1,43 @@
-# phase_coffee_2
+# phase_coffee_1
 
-**Difficulty**: Medium
+**Difficulty**: Easy
 
-**Points earned**: 487
+**Points earned**: 296
 
 **Description**:
 
-> Surely all the bugs have been fixed...
+> > **Phase Connect Coffee Shop**
+> > 
+> > Limited Jelly Hoshiumi coffee for sale now!
+> > 
+> > -- insert Jelly coffee description here --
 > 
-> This challenge is **part 2** out of 3 challenges.
+> I really gotta get my balance up for this... maybe I should try meal replacements
+> 
+> This challenge is part 1 out of 3 challenges.
 > 
 > Completing this challenge will unlock 1 challenge.
 > 
 > Author: Sheepiroo
 > 
-> `nc chals.jellyc.tf 5001`
+> `nc chals.jellyc.tf 5000`
 
-![phase_coffee_2](./images/pc_2.png "phase_coffee_2")
+![phase_coffee_1](./images/pc_1.png "phase_coffee_1")
 
 **Solution**: 
 
-Buying negative coffee doesn't work anymore. I needed all 3 hints for this one.
+You're gonna need [netcat](https://en.wikipedia.org/wiki/Netcat) for this one. I unlocked both hints before figuring this out.
 
 Hint 1:
 
-> The data type of `coin_balance` is relevant
+> How is `coin_balance` calculated? Is there any way to make it go bigger?
 
 Hint 2:
 
-> Integer underflow
+> The input `quantity` is not validated properly - are there any unexpected values that could be used?
 
-So I know what integer underflow is, but not what the magic number was.
+We need to increase our balance enough to buy Jelly's coffee. Buying negative amounts of coffee will increase our balance. 
 
-Hint 3:
+![phase_coffee_1 solution](./images/pc_1_sol.png "phase_coffee_1 solution")
 
-> A 32-bit integer has a minimum value of `-(2^31) = -2147483648`. Subtracting further will cause `coin balance` to underflow to a large positive number. How many coffees do you need to buy for this to happen?
-
-```
-(2147483648 + 100) / 35 = 61356678 + 18/35 ≈ 61356678.51
-```
-We need to order 61356678 + 1 bags of coffee.
-
-![phase_coffee_2 solution](./images/pc_2_sol.png "phase_coffee_2 solution")
-
-**Flag**: `jellyCTF{dud3_y0u_m1ss3d_4n0th3r_bug}`
+**Flag**: `jellyCTF{sakana_your_C04433_shop_broke}`

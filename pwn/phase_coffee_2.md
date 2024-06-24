@@ -1,43 +1,46 @@
-# phase_coffee_1
+# phase_coffee_2
 
-**Difficulty**: Easy
+**Difficulty**: Medium
 
-**Points earned**: 296
+**Points earned**: 487
 
 **Description**:
 
-> > **Phase Connect Coffee Shop**
-> > 
-> > Limited Jelly Hoshiumi coffee for sale now!
-> > 
-> > -- insert Jelly coffee description here --
+> Surely all the bugs have been fixed...
 > 
-> I really gotta get my balance up for this... maybe I should try meal replacements
-> 
-> This challenge is part 1 out of 3 challenges.
+> This challenge is **part 2** out of 3 challenges.
 > 
 > Completing this challenge will unlock 1 challenge.
 > 
 > Author: Sheepiroo
 > 
-> `nc chals.jellyc.tf 5000`
+> `nc chals.jellyc.tf 5001`
 
-![phase_coffee_1](./images/pc_1.png "phase_coffee_1")
+![phase_coffee_2](./images/pc_2.png "phase_coffee_2")
 
 **Solution**: 
 
-You're gonna need [netcat](https://en.wikipedia.org/wiki/Netcat) for this one. I unlocked both hints before figuring this out.
+Buying negative coffee doesn't work anymore. I needed all 3 hints for this one.
 
 Hint 1:
 
-> How is `coin_balance` calculated? Is there any way to make it go bigger?
+> The data type of `coin_balance` is relevant
 
 Hint 2:
 
-> The input `quantity` is not validated properly - are there any unexpected values that could be used?
+> Integer underflow
 
-We need to increase our balance enough to buy Jelly's coffee. Buying negative amounts of coffee will increase our balance. 
+So I know what integer underflow is, but not what the magic number was.
 
-![phase_coffee_1 solution](./images/pc_1_sol.png "phase_coffee_1 solution")
+Hint 3:
 
-**Flag**: `jellyCTF{sakana_your_C04433_shop_broke}`
+> A 32-bit integer has a minimum value of `-(2^31) = -2147483648`. Subtracting further will cause `coin balance` to underflow to a large positive number. How many coffees do you need to buy for this to happen?
+
+```
+(2147483648 + 100) / 35 = 61356678 + 18/35 ≈ 61356678.51
+```
+We need to order 61356678 + 1 bags of coffee.
+
+![phase_coffee_2 solution](./images/pc_2_sol.png "phase_coffee_2 solution")
+
+**Flag**: `jellyCTF{dud3_y0u_m1ss3d_4n0th3r_bug}`
