@@ -26,7 +26,7 @@ Easy
 
 ## Solution
 
-Somehow we need to execute a shell command to print the contents of `flag.txt`. Doing some Googling about template injection (https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection/jinja2-ssti), I found out that I needed to access the global object and use Popen to read `flag.txt`. This is the snippet that caught my attention:
+Somehow we need to execute a shell command to print the contents of `flag.txt`, and just putting `; cat flag.txt` in the text field doesn't work. Doing some Googling about template injection (https://book.hacktricks.xyz/pentesting-web/ssti-server-side-template-injection/jinja2-ssti), I found out that I needed to access the global object and use Popen to read `flag.txt`. This is the snippet that caught my attention:
 
 > ### RCE
 > ```python
