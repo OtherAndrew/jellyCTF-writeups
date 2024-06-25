@@ -4,7 +4,7 @@
 
 Medium
 
-## Points earned
+## Points Earned
 
 487
 

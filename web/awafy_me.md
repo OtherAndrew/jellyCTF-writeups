@@ -4,7 +4,7 @@
 
 Easy
 
-## Points earned
+## Points Earned
 
 553
 
