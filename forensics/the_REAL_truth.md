@@ -64,6 +64,7 @@ These are the results:
 6a656c6c79435446 7b7468335f77306d  jellyCTF {th3_w0m
 616e5f696e5f7468 335f7233645f6368  an_in_th 3_r3d_ch
 346e6e336c7d203a 7369687420656b61  4nn3l} : siht eka
+...
 ```
 
 Just the message:
