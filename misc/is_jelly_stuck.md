@@ -51,7 +51,9 @@ Putting in the code `jieu-dkxx`, we get this:
 
 Solving this took a while but I eventually got it.
 
-<video src='./media/is_jelly_stuck_baba_sol.webm'>is_jelly_stuck baba solution</video>
+![is_jelly_stuck baba solution](./media/is_jelly_stuck_baba_sol.gif "is_jelly_stuck baba solution")
+
+
 
 ### Hint 1
 
