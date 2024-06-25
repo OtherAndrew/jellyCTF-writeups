@@ -24,7 +24,7 @@ I unlocked the hint for this one:
 > 
 > oh, what's the key? well i pulled it out of my ass. i call it my ass-key.
 
-Not that much help but it does give me some clues.
+Not much help but it does give me some clues.
 
 When I copied and pasted the emojis into a text editor, I noticed some strange spacing between the emojis.
 
@@ -49,7 +49,7 @@ It seems as though there's a bunch of variation selectors seperated by zero widt
 I copy/pasted the website results into a text file, and wrote a script to take the variation selector number and convert it into an ASCII character.
 
 ```js
-// the important part
+// just the important part
 const str = [];
 for (const line of file) {
     if (line.length > 1) {
