@@ -120,7 +120,7 @@ This looks like [Bacon's Cipher](https://en.wikipedia.org/wiki/Bacon%27s_cipher)
 THEFINALPASSWORDISSADGIRL
 ```
 
-This is the content of the final file, flag.txt:
+This is the content of the final file, `flag.txt`:
 
 ```
 jellyctf{jelly_was_probably_older_than_these_ciphers}
