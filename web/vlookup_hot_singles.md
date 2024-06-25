@@ -22,9 +22,7 @@ Easy
 
 ## Solution
 
-Forge a JWT to access the admin panel.
-
-The source code gives us some hints about what the JWT should look like:
+Looking at the source code, it's obvious that we need to forge a JWT to access the admin panel. The information we need to include in the JWT is also there:
 
 ```python
 JWT_SECRET = "singaQu5aeWoh1vuoJuD]ooJ9aeh2soh"
