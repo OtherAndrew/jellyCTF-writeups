@@ -51,6 +51,8 @@ Putting in the code `jieu-dkxx`, we get this:
 
 Solving this took a while but I eventually got it.
 
+[is_jelly_stuck_baba_sol.webm](https://github.com/OtherAndrew/jellyCTF-writeups/assets/103388958/abcaa3ee-6d3c-46af-9bbd-5a6b629b111f)
+
 ### Hint 1
 
 > Hmm... the crossword grid and the level have very similar shapes. Why not try following the jelly? After all, Jelly Is You!
