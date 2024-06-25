@@ -28,6 +28,8 @@ Easy
 
 Had to buy a hint:
 
+### Hint
+
 > Buffer overflow on `address` to overwrite value of coin balance
 
 Basically we need to input a string for address long enough that it overflows and overwrites the coin balance. This is the string I used:

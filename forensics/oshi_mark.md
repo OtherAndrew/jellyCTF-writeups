@@ -20,6 +20,8 @@ Hard
 
 I unlocked the hint for this one:
 
+### Hint
+
 > awawa! you're using a hint, how cute.
 >
 > well what is an oshi mark? a unique code!

@@ -22,6 +22,8 @@ Easy
 
 I unlocked the hint for this one:
 
+### Hint
+
 > > Note: Read the Security Considerations section before using `shell=True`.
 > 
 > Well that sign can't stop me because I can't read!

@@ -28,6 +28,8 @@ I thought about doing a shell injection attack for this one just like [awafy_me]
 
 I unlocked the hint for this one but it didn't tell me anything i didn't already know:
 
+### Hint
+
 > `os.system()` in awafier_decoder.py
 
 Then I got the wild idea to encode `;cat flag.txt` into AWASCII (see page 5 of the [AWA5.0 spec](https://github.com/TempTempai/AWA5.0/blob/6fe3b2ef290a3df9c94822634c4ceb6c872cd2fd/AWA5.0%20Specs.pdf)). I did this manually but you could write a script to do this for you (and I ended up doing this later for [rev/lost_in_translation](../rev/lost_in_translation.md)).

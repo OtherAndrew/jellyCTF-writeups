@@ -39,7 +39,11 @@ return render_template_string(f'''
     </p>
 ```
 
-I unlocked hint 2 and got a link to this write up: https://ctftime.org/writeup/10895
+I unlocked hint 2 and got a link to a write up for a similar problem:
+
+### Hint 2
+
+> https://ctftime.org/writeup/10895
 
 To access the flag, we can either put `{{url_for.__globals__['current_app'].config['FLAG']}}` into the text box or `https://bro-visited-his-site.jellyc.tf/response?word={{url_for.__globals__['current_app'].config['FLAG']}}` into the address bar.
 
