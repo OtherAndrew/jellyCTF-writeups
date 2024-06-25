@@ -56,6 +56,8 @@ I see a park there. But let's just make sure.
 
 ![stalknights_2 image zoomed in](./images/stalknights_2_comp1.jpg "stalknights_2 image zoomed in")
 
+[stalknights 2 comparison](https://github.com/OtherAndrew/jellyCTF-writeups/assets/103388958/bbb3fbf8-7d72-4ea1-ad69-41bd81a7eb24 "stalknights_2 comparison")
+
 I think we got it.
 
 ## Flag
