@@ -14,6 +14,8 @@ Hard
 > 
 > Author: Meow Mix
 
+![oshi_mark challenge](./images/oshi_mark.png "oshi_mark challenge")
+
 ## Solution
 
 I unlocked the hint for this one:
