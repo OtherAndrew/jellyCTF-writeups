@@ -20,7 +20,7 @@ Easy
 
 ## Solution
 
-I've watched enough spooky YouTube videos to know that there's probably a secret message hiding in the audio waveform. Plugging the mp3 file into this [spectrum analyzer](https://academo.org/demos/spectrum-analyzer/) we get this:
+I've watched enough spooky YouTube videos to know that there's probably a secret message hiding in the audio waveform. Plugging the mp3 file into a [spectrum analyzer](https://academo.org/demos/spectrum-analyzer/) we get this:
 
 ![alien_transmission spectrum analysis](./images/alien_transmission.png "alien_transmission spectrum analysis")
 
