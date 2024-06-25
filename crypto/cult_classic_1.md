@@ -1,10 +1,14 @@
 # cult_classic_1
 
-**Difficulty**: Easy
+## Difficulty
 
-**Points earned**: 335
+Easy
 
-**Description**:
+## Points Earned
+
+335
+
+## Description
 
 > > "We are not a cult" - Starknights (probably)
 > 
@@ -23,11 +27,11 @@
 > - Second hint is for Stage 2
 > - Third hint is for stage 3
 
-**Solution**: 
+## Solution 
 
 This set of challenges consists of several password-protected ZIP files. Each ZIP file must be extracted to get to the next one.
 
-**Stage 1**:
+### Stage 1
 
 The first ZIP file we're given contained a password-protected ZIP and this message:
 
@@ -48,7 +52,7 @@ Starknights (not a cult)
 
 I noticed the first letter of each line spelled out `PRINCESS`, and tried that to unlock the ZIP. Sure enough it worked.
 
-**Stage 2**:
+### Stage 2
 
 This is the next message we're given:
 
@@ -69,7 +73,7 @@ Then I plugged this into [CacheSleuth](https://www.cachesleuth.com/multidecoder/
 If you can decode this, you can have the next key: BIGNERD
 ```
 
-**Stage 3**:
+### Stage 3
 
 ```
 OWZ OEU, KFZKF E WOBO LBV PRVZ KSJFUUA YB JRU: KMRYCTWG{BNVW_ZV_KCYG_E_NDSU_AC}
@@ -85,6 +89,8 @@ message: NOT BAD, HERES A FLAG FOR YOUR EFFORTS SO FAR: JELLYCTF{THIS_IS_JUST_A_
 HOWEVER YOUR JOURNEY IS NOT OVER, TAKE THIS KEY AND PROCEED FORWARD: ALIEN
 ```
 
-**Flag**: `jellyCTF{THIS_IS_JUST_A_WARM_UP}`
+## Flag
+
+`jellyCTF{THIS_IS_JUST_A_WARM_UP}`
 
 This challenge consists of 2 parts. See [cult_classic_2](./cult_classic_2.md) for part 2 of this challenge.

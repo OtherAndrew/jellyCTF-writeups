@@ -2,11 +2,15 @@
 
 This challenge consists of 2 parts. See [cult_classic_1](./cult_classic_1.md) for part 1 of this challenge.
 
-**Difficulty**: Easy
+## Difficulty
 
-**Points earned**: 860
+Easy
 
-**Description**:
+## Points Earned
+
+860
+
+## Description
 
 > See `cult_classic_1` for challenge files. Enter the second flag into this challenge.
 > 
@@ -22,11 +26,11 @@ This challenge consists of 2 parts. See [cult_classic_1](./cult_classic_1.md) fo
 > - Second hint is for Stage 2
 > - Third hint is for stage 3
 
-**Solution**: 
+## Solution 
 
 This set of challenges consists of several password-protected ZIP files. Each ZIP file must be extracted to get to the next one.
 
-**Stage 4**:
+### Stage 4
 
 This is the message we're given after unlocking the ZIP with the password from [cult_classic_1](./cult_classic_1.md):
 
@@ -43,7 +47,7 @@ Plugging this into online decoders didn't give me any results, so I watched Jell
 
 Using a [PlayFair decoder](https://www.boxentriq.com/code-breaking/playfair-cipher) with `ALIEN` as the key, we get `ACOUSTIC`.
 
-**Stage 5**:
+### Stage 5
 
 ```
 🌠Don't Look Away... 🌠
@@ -104,7 +108,7 @@ next
 password
 ```
 
-**Stage 6**:
+### Stage 6
 
 ```
 WAAWW AAWWW AAWAA AAWAW AWAAA AWWAW AAAAA AWAWW AWWWW AAAAA WAAWA WAAWA WAWWA AWWWA WAAAW AAAWW AWAAA WAAWA WAAWA AAAAA AAAWW AAWWA AWAAA WAAAW AWAWW
@@ -126,4 +130,6 @@ P̵̜͓̣̥̟̯͈͉̱̗̜̲̙̬͗͑͊̔̈́̈́̋̄̀̉̕Ş̷̘̺̖͍̤͚̪͆̌̆́
 
 ```
 
-**Flag**: `jellyctf{jelly_was_probably_older_than_these_ciphers}`
+## Flag
+
+`jellyctf{jelly_was_probably_older_than_these_ciphers}`
