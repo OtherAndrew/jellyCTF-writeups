@@ -51,9 +51,7 @@ Putting in the code `jieu-dkxx`, we get this:
 
 Solving this took a while but I eventually got it.
 
-![is_jelly_stuck baba solution](./media/is_jelly_stuck_baba_sol.gif "is_jelly_stuck baba solution")
-
-
+[is_jelly_stuck_baba_sol.webm](https://github.com/OtherAndrew/jellyCTF-writeups/assets/103388958/abcaa3ee-6d3c-46af-9bbd-5a6b629b111f)
 
 ### Hint 1
 
