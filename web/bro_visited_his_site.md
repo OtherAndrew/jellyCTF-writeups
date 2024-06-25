@@ -31,12 +31,12 @@ Easy
 The website takes whatever's in the text box and outputs `[text]pilled [text]maxxer`. We can use double brackets to execute code as well. For example, when I input `{{7*7}}` I get `49pilled 49maxxer`. However I can't access the app config by inputting `{{config}}` because of these lines in the source code:
 
 ```python
-    return render_template_string(f'''
-        {{% set config="friend" %}}
-        {{% set self="visit" %}}
-        <p>
-            {word}pilled {word}maxxer
-        </p>
+return render_template_string(f'''
+    {{% set config="friend" %}}
+    {{% set self="visit" %}}
+    <p>
+        {word}pilled {word}maxxer
+    </p>
 ```
 
 I unlocked hint 2 and got a link to this write up: https://ctftime.org/writeup/10895
