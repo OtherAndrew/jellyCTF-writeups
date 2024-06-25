@@ -48,7 +48,7 @@ I wrote a Node script to generate the JWT:
 
 Which gives me `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiamVsbHkifQ.7wQ41K0c7OZqWaePlf3v0QKuX-jOc4kFqks_eWrfQhE`.
 
-Then I opened Chrome devtools and went to cookies under Application > Storage. Paste the encoded JWT into the token value field and then you should be able to access the admin panel.
+Then I opened Chrome devtools and went to cookies under Application > Storage. Paste the encoded JWT into the `token` value field and then you should be able to access the admin panel.
 
 ![vlookup_hot_singles solution](./images/vlookup_hot_singles_sol.png "vlookup_hot_singles solution")
 
