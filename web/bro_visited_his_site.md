@@ -1,10 +1,14 @@
 # bro_visited_his_site
 
-**Difficulty**: Easy
+## Difficulty
 
-**Points earned**: 343
+Easy
 
-**Description**:
+## Points Earned
+
+343
+
+## Description
 
 > bro stored his secrets in the flask app config
 > 
@@ -22,7 +26,7 @@
 
 ![bro_visited_his_site website output](./images/bro_visited_his_site_output.png "bro_visited_his_site output")
 
-**Solution**: 
+## Solution
 
 The website takes whatever's in the text box and outputs `[text]pilled [text]maxxer`. We can use double brackets to execute code as well. For example, when I input `{{7*7}}` I get `49pilled 49maxxer`. However I can't access the app config by inputting `{{config}}` because of these lines in the source code:
 
@@ -41,4 +45,6 @@ To access the flag, we can either put `{{url_for.__globals__['current_app'].conf
 
 ![bro_visited_his_site solution](./images/bro_visited_his_site_sol.png "bro_visited_his_site solution")
 
-**Flag**: `jellyCTF{f1agp1ll3d_t3mpl4te_1nj3ct10nmaxx3r}`
+## Flag
+
+`jellyCTF{f1agp1ll3d_t3mpl4te_1nj3ct10nmaxx3r}`

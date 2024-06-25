@@ -26,9 +26,9 @@ Easy
 > - Second hint is for Stage 2
 > - Third hint is for stage 3
 
-## Solution 
-
 This set of challenges consists of several password-protected ZIP files. Each ZIP file must be extracted to get to the next one.
+
+## Solution 
 
 ### Stage 4
 

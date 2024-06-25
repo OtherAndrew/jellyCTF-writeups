@@ -1,10 +1,14 @@
 # vlookup_hot_singles
 
-**Difficulty**: Easy
+## Difficulty
 
-**Points earned**: 100
+Easy
 
-**Description**:
+## Points earned
+
+100
+
+## Description
 
 > looks like this is some kind of dating site for nerds? weird, figure out who the admin is and access their panel
 > 
@@ -16,7 +20,9 @@
 
 ![vlookup_hot_singles website](./images/vlookup_hot_singles.png "vlookup_hot_singles")
 
-**Solution**: Forge a JWT to access the admin panel.
+## Solution
+
+Forge a JWT to access the admin panel.
 
 The source code gives us some hints about what the JWT should look like:
 
@@ -46,4 +52,6 @@ Then I opened Chrome devtools and went to cookies under Application > Storage. P
 
 ![vlookup_hot_singles solution](./images/vlookup_hot_singles_sol.png "vlookup_hot_singles solution")
 
-**Flag**: `jellyCTF{i_am_b3c0m3_awawa_d3str0y3r_0f_f3m4135}`
+## Flag
+
+`jellyCTF{i_am_b3c0m3_awawa_d3str0y3r_0f_f3m4135}`

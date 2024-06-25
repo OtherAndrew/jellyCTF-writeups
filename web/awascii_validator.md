@@ -1,10 +1,14 @@
 # awascii_validator
 
-**Difficulty**: Medium
+## Difficulty
 
-**Points earned**: 822
+Medium
 
-**Description**:
+## Points earned
+
+822
+
+## Description
 
 > Learning a new language is hard... maybe this could help with practice
 > 
@@ -16,9 +20,9 @@
 
 ![awascii_validator input](./images/awascii_validator_input.png "awascii_validator input")
 
-**Solution**: 
+## Solution
 
-Like it says on the tin, the website decodes AWASCII into plaintext. I thought about doing a shell injection attack for this one just like [awafy_me](./awafy_me.md) but the application protects against this:
+I thought about doing a shell injection attack for this one just like [awafy_me](./awafy_me.md) but the application protects against this:
 
 ![awascii_validator invalid input](./images/awascii_validator_invalid.png "awascii_validator invalid input")
 
@@ -55,4 +59,6 @@ awawawawawawa awa awawawawa awawa awa awa awa awawa awa awawawawawawawawa awawa 
 
 ![awascii_validator solution](./images/awascii_validator_sol.png "awascii_validator solution")
 
-**Flag**: `jellyCTF{m4st3rs_1n_awat1sm}`
+## Flag
+
+`jellyCTF{m4st3rs_1n_awat1sm}`

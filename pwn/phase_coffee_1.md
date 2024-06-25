@@ -1,10 +1,14 @@
 # phase_coffee_1
 
-**Difficulty**: Easy
+## Difficulty
 
-**Points earned**: 296
+Easy
 
-**Description**:
+## Points Earned
+
+296
+
+## Description
 
 > > **Phase Connect Coffee Shop**
 > > 
@@ -24,15 +28,15 @@
 
 ![phase_coffee_1](./images/pc_1.png "phase_coffee_1")
 
-**Solution**: 
+## Solution
 
 You're gonna need [netcat](https://en.wikipedia.org/wiki/Netcat) for this one. I unlocked both hints before figuring this out.
 
-Hint 1:
+### Hint 1
 
 > How is `coin_balance` calculated? Is there any way to make it go bigger?
 
-Hint 2:
+### Hint 2
 
 > The input `quantity` is not validated properly - are there any unexpected values that could be used?
 
@@ -40,4 +44,6 @@ We need to increase our balance enough to buy Jelly's coffee. Buying negative am
 
 ![phase_coffee_1 solution](./images/pc_1_sol.png "phase_coffee_1 solution")
 
-**Flag**: `jellyCTF{sakana_your_C04433_shop_broke}`
+## Flag
+
+`jellyCTF{sakana_your_C04433_shop_broke}`

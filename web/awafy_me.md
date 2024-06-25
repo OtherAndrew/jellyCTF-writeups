@@ -1,10 +1,14 @@
 # awafy_me
 
-**Difficulty**: Easy
+## Difficulty
 
-**Points earned**: 553
+Easy
 
-**Description**:
+## Points earned
+
+553
+
+## Description
 
 > Hacked this together for Jelly's mutually beneficial partnership application
 >
@@ -14,7 +18,7 @@
 
 ![awafy_me website input](./images/awafy_me_input.png "awafy_me input")
 
-**Solution**: 
+## Solution
 
 I unlocked the hint for this one:
 
@@ -28,4 +32,6 @@ I looked up [how to do shell injection](https://en.wikipedia.org/wiki/Code_injec
 
 ![awafy_me solution](./images/awafy_me_sol.png "awafy_me solution")
 
-**Flag**: `jellyCTF{c3rt1fied_aw4t15tic}`
+## Flag
+
+`jellyCTF{c3rt1fied_aw4t15tic}`

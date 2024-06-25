@@ -1,16 +1,20 @@
 # do_not_trust 
 
-**Difficulty**: Easy
+## Difficulty
 
-**Points earned**: 100
+Easy
 
-**Description**:
+## Points earned
+
+100
+
+## Description
 
 > there's a flag hidden somewhere on this site (jellyc.tf) in a common location for websites, see if you can find it
 > 
 > Author: arepi
 
-**Solution**: 
+## Solution
 
 I saw this on Jelly's stream ([1:27:45](https://www.youtube.com/live/QH8LKkIVHzI?t=5265)):
 
@@ -24,4 +28,6 @@ Disallow: /
 # jellyCTF{g0d_d4mn_cL4nk3r5}
 ```
 
-**Flag**: `jellyCTF{g0d_d4mn_cL4nk3r5}`
+## Flag
+
+`jellyCTF{g0d_d4mn_cL4nk3r5}`

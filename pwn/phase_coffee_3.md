@@ -1,10 +1,14 @@
 # phase_coffee_3
 
-**Difficulty**: Easy
+## Difficulty
 
-**Points earned**: 643
+Easy
 
-**Description**:
+## Points earned
+
+643
+
+## Description
 
 > Fine.. NOW all the bugs have been fixed.
 > 
@@ -20,7 +24,7 @@
 
 ![phase_coffee_3](./images/pc_3.png "phase_coffee_3")
 
-**Solution**: 
+## Solution
 
 Had to buy a hint:
 
@@ -34,4 +38,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 
 ![phase_coffee_3 solution](./images/pc_3_sol.png "phase_coffee_3 solution")
 
-**Flag**: `jellyCTF{ph4se_c0nn3ct_15_definitely_a_coff33_comp4ny}`
+## Flag
+
+`jellyCTF{ph4se_c0nn3ct_15_definitely_a_coff33_comp4ny}`

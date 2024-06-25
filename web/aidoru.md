@@ -1,10 +1,14 @@
 # aidoru
 
-**Difficulty**: Easy
+## Difficulty
 
-**Points earned**: 343
+Easy
 
-**Description**:
+## Points earned
+
+343
+
+## Description
 
 > ### Phase Connect is full of seiso idols!
 > Note: Volume warning
@@ -20,19 +24,19 @@
 
 ![aidoru website](./images/aidoru.png "aidoru")
 
-**Solution**: 
-
 Clicking on Jelly's picture takes us to a 404 page.
 
 ![aidoru website 404](./images/aidoru_404.png "aidoru 404")
 
+## Solution
+
 I had to unlock both hints for this one.
 
-Hint 1:
+### Hint 1
 
 > Perhaps there's a way to crack the profile IDs and find out how they're generated, so we can make one for our princess
 
-Hint 2:
+### Hint 2
 
 > Try a hash cracking tool
 > 
@@ -50,4 +54,6 @@ When I opened up the Elements tab in Chrome devtools:
 
 ![aidoru solution](./images/aidoru_sol.png "aidoru sol")
 
-**Flag**: `jellyCTF{u_r_the_p3rfect_ultimate_IDOR}`
+## Flag
+
+`jellyCTF{u_r_the_p3rfect_ultimate_IDOR}`
