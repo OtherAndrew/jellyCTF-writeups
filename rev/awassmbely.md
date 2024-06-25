@@ -33,7 +33,7 @@ We are given a file, `code.s`:
 
 ## Solution
 
-This problem is why they make you learn Assembly in Computer Architecture class.
+This challenge is why they make you learn Assembly in Computer Architecture class.
 
 First thing I did was decode the [AWA 5.0](https://github.com/TempTempai/AWA5.0/blob/main/Documentation/AWA5.0%20Specification.pdf) parts into binary:
 
