@@ -22,7 +22,9 @@ Easy
 
 ## Solution
 
-[Jelly did this one on stream](https://www.youtube.com/live/QH8LKkIVHzI?t=915) but it's pretty easy.
+Jelly did this one on stream ([15:15](https://www.youtube.com/live/QH8LKkIVHzI?t=915)) but it's pretty easy.
+
+[![Jelly's jellyCTF stream](https://img.youtube.com/vi/QH8LKkIVHzI/0.jpg)](https://www.youtube.com/live/QH8LKkIVHzI?t=915)
 
 We can inspect element on the picture to get a larger resolution image.
 
