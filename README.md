@@ -22,4 +22,4 @@ This was the first CTF I've ever participated in, but I managed to solve more ch
 
 - jellyCTF website: https://jellyc.tf
 - My team: https://jellyc.tf/teams/373
-- Offical writeups and source code: https://github.com/jellyctf/challenges
+- Offical solutions and source code: https://github.com/jellyctf/challenges
