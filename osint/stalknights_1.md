@@ -30,9 +30,13 @@ We can inspect element on the picture to get a larger resolution image.
 
 ![stalknights_1 picture](./images/stalknights_1_pic.jpg "stalknights_1 picture")
 
-Doing a reverse image search with Google Lens we find that this picture was taken at the Albert Heijn Museum Shop in Zaanse Schans, Netherlands.
+Doing a reverse image search with Google Lens, we find that this picture was taken at the [Albert Heijn Museum Shop](https://www.zaanseschans.com/en/museum-shop-albert-heijn/) in Zaanse Schans, Netherlands.
 
 ![stalknights_1 google lens](./images/stalknights_1_google_lens.png "stalknights_1 google lens")
+
+[![stalknights_1 blog post](./images/stalknights_1_blog.png "stalknights_1 blog post")
+](https://www.travelwithsimina.com/one-day-in-zaanse-schans/#Albert_Heijn_Museum_Shop)
+
 
 ## Flag
 
