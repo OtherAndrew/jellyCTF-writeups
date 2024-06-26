@@ -60,7 +60,7 @@ Using a [PlayFair decoder](https://www.boxentriq.com/code-breaking/playfair-ciph
 1.12 39.7 39.5 29.21 34.4 10.28 20.14 15.26
 ```
 
-I also looked at Jelly's stream for this one, though she didn't end up solving it.
+I also looked at Jelly's stream ([2:11:29](https://www.youtube.com/live/QH8LKkIVHzI?t=7889)) for this one, though she didn't end up solving it.
 
 The hint for stage 5 was updated since then, but on stream it said this:
 
