@@ -10,7 +10,7 @@ From the jellyCTF homepage:
 
 ## My Experience
 
-I did these challenges solo, earning 15,016 points and reaching 63rd place.
+I did these challenges solo, earning 15,016 points and reaching 63rd place out of 567 teams.
 
 ![my team](./images/team.png "my team")
 
