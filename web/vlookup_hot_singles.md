@@ -35,13 +35,13 @@ def is_admin(token):
 I wrote a Node script to generate the JWT:
 
 ```js
- const sign = require('jwt-encode');
- const secret = 'singaQu5aeWoh1vuoJuD]ooJ9aeh2soh';
- const data = {
-     user: "jelly"
- };
- const jwt = sign(data, secret);
- console.log(jwt);
+#!/usr/bin/node
+
+const sign = require('jwt-encode');
+const secret = 'singaQu5aeWoh1vuoJuD]ooJ9aeh2soh';
+const data = { user: "jelly" };
+const jwt = sign(data, secret);
+console.log(jwt);
 ```
 
 Which gives me `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoiamVsbHkifQ.7wQ41K0c7OZqWaePlf3v0QKuX-jOc4kFqks_eWrfQhE`.
