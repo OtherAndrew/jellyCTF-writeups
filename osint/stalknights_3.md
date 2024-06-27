@@ -36,7 +36,7 @@ When we scroll down we land on [this post](https://twitter.com/starknight1337/st
 
 ![stalknights_3 twitter](./images/stalknights_3_twitter.png "stalknights_3 twitter")
 
-So they were at an airport on May 3rd, 2024. Let's see if we can find out more by looking at the image
+So they were at an airport on May 3rd, 2024. Let's see if we can find out more by looking at the image.
 
 We can download a higher resolution version of the image by heading to https://pbs.twimg.com/media/GNJUBb_aQAAOLzu.jpg?name=orig.
 
