@@ -50,15 +50,14 @@ While I was doing more research on this problem, I came across [this blog](https
 
 It seems as though there's a bunch of variation selectors seperated by zero width non-joiners. I thought the variation selector numbers were meaningful, and when I mapped them to ASCII characters, they started to form words!
 
-I copy/pasted the website results into a text file, and wrote a script to take the variation selector number and convert it into an ASCII character.
+I copy/pasted the website results into [a text file](./media/fontspace_output.txt) and wrote [a script](./media/decode.js) to take the variation selector number and convert it into an ASCII character.
 
 ```js
 // just the important part
 const str = [];
-for (const line of file) {
-    if (line.length > 1) {
-        const asciiCode = line.split("-")[1]
-                              .split("\t")[0];
+for await (const line of rl) {
+    if (line.includes("VARIATION SELECTOR")) {
+        const asciiCode = line.split("-")[1].split("\t")[0];
         str.push(String.fromCharCode(asciiCode));
     }
 }
