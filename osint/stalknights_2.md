@@ -34,7 +34,7 @@ When we search "bright festival" and head to images:
 
 ![stalknights_2 bright festival google images](./images/stalknights_2_google_images.png "stalknights_2 bright festival google images")
 
-So now we know that this is somewhere in Brussels. Let's look at the image again for another clue.
+The logo and font on the poster look similar to [the result on the bottom left](https://www.visit.brussels/en/visitors/agenda/bright-festival), so now we know that this is somewhere in Brussels. Let's look at the image again for another clue.
 
 ![stalknights_2 pizza 28](./images/stalknights_2_pizza_28.jpg "stalknights_2 pizza 28")
 
@@ -42,15 +42,11 @@ So now we know that this is somewhere in Brussels. Let's look at the image again
 
 ![stalknights_2 google results](./images/stalknights_2_google_pizza_28.png "stalknights_2 google results")
 
-That last result looks interesting.
-
-![stalknights_2 tripadvisor result](./images/stalknights_2_tripadvisor.png "stalknights_2 tripadvisor result")
-
-That logo is a match. Let's see where this place is on Google Maps.
+That last result looks interesting. Let's see where this place is on [Google Maps](https://maps.app.goo.gl/L2bs4UVFrjL25V7N7).
 
 ![stalknights_2 google maps](./images/stalknights_2_google_maps.png "stalknights_2 google maps")
 
-I see a park there called [Square de la Putterie](https://maps.app.goo.gl/CNfg6hhMds9YNfXd7), but let's just make sure we're in the right place.
+The logo is a match. I see a park there called [Square de la Putterie](https://maps.app.goo.gl/CNfg6hhMds9YNfXd7), but let's go to street view to make sure we're in the right place.
 
 ![stalknights_2 google maps street view](./images/stalknights_2_street_view.jpg "stalknights_2 google maps street view")
 
