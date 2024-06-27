@@ -42,23 +42,21 @@ So now we know that this is somewhere in Brussels. Let's look at the image again
 
 ![stalknights_2 google results](./images/stalknights_2_google_pizza_28.png "stalknights_2 google results")
 
-That last one looks interesting.
+That last result looks interesting.
 
 ![stalknights_2 tripadvisor result](./images/stalknights_2_tripadvisor.png "stalknights_2 tripadvisor result")
 
-That logo is a match. Let's see what this place looks like on Google Maps.
+That logo is a match. Let's see where this place is on Google Maps.
 
 ![stalknights_2 google maps](./images/stalknights_2_google_maps.png "stalknights_2 google maps")
 
-I see a park there. But let's just make sure.
+I see a park there called [Square de la Putterie](https://maps.app.goo.gl/CNfg6hhMds9YNfXd7), but let's just make sure we're in the right place.
 
 ![stalknights_2 google maps street view](./images/stalknights_2_street_view.jpg "stalknights_2 google maps street view")
 
 ![stalknights_2 image zoomed in](./images/stalknights_2_comp1.jpg "stalknights_2 image zoomed in")
 
 [stalknights 2 comparison](https://github.com/OtherAndrew/jellyCTF-writeups/assets/103388958/bbb3fbf8-7d72-4ea1-ad69-41bd81a7eb24 "stalknights_2 comparison")
-
-I think we got it.
 
 ## Flag
 
