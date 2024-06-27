@@ -68,33 +68,32 @@ The hint for stage 5 was updated since then, but on stream it said this:
 
 Jelly deduced that this was a book cipher, with her original song "[Luminary](https://www.youtube.com/watch?v=1x6oPy3Hwcw)" as the book.
 
-Online decoders were not able to decode the message, so I wrote my own:
+Online decoders were not able to decode the message, so I wrote [my own](./media/decode.js):
 
 ```js
 const cipherText = /* see above */;
 
-const bookText = /*[Luminary lyrics from YouTube video description]*/;
+const bookText = /* [Luminary lyrics from YouTube video description] */;
 
 const cipher = cipherText
-        .split("\n")
-        .map((line) => line.split(" "));
+    .split("\n")
+    .map((line) => line.split(" "));
 
 const book = bookText
-        .split("\n");
+    .split("\n");
 
-const out = [];
+const output = [];
 for (const line of cipher) {
-    const outLine = [];
+    const outputLine = [];
     for (const part of line) {
-        const [lineNum, wordNum] = part
-                .split(".")
-                .map((n) => parseInt(n) - 1);
-        outLine.push(book[lineNum].charAt(wordNum));
+        const [lineNum, charNum] = part
+            .split(".")
+            .map((n) => parseInt(n) - 1);
+        outputLine.push(book[lineNum].charAt(charNum));
     }
-    out.push(outLine.join(""))
+    output.push(outputLine.join(""));
 }
-
-console.log(out.join("\n"));
+console.log(output.join("\n"));
 ```
 
 Turns out the hint was misleading. Instead of `[line number].[word number]`, it was actually `[line number].[char number]`. The output of the above script was:
