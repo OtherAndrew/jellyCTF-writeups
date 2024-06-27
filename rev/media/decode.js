@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const fs = require('fs')
 
 const lookup = "AWawJELYHOSIUMjelyhosiumPCNTpcntBDFGRbdfgr0123456789 .,!'()~_/;\n";
@@ -7,18 +9,17 @@ const text = fs.readFileSync(process.argv[2]).toString();
 const decodeText = text.slice(3);
 const binary = decodeText
     .replaceAll(" awa", "0")
-    .replaceAll("wa", 1);
+    .replaceAll("wa", "1");
 const binaryCodes = chunk(binary, 6);
 // const binaryCodes = chunk(binary, 8);
 const output = decode(binaryCodes);
-// console.log(binary);
 console.log(output);
 
-function chunk(text, size) {
+function chunk(text, chunkSize) {
     const out = [];
-    const split = text.split("")
-    for (let i = 0; i < split.length; i += size) {
-        out.push(split.slice(i, i + size).join(""));
+    const split = text.split("");
+    for (let i = 0; i < split.length; i += chunkSize) {
+        out.push(split.slice(i, i + chunkSize).join(""));
     }
     return out;
 }
@@ -29,5 +30,5 @@ function decode(codes) {
         const index = parseInt(code, 2);
         out.push(lookup[index]);
     }
-    return out.join("")
+    return out.join("");
 }

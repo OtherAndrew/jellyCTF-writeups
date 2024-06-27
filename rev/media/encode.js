@@ -1,3 +1,5 @@
+#!/usr/bin/node
+
 const fs = require('fs');
 
 const lookup = "AWawJELYHOSIUMjelyhosiumPCNTpcntBDFGRbdfgr0123456789 .,!'()~_/;\n";
@@ -16,4 +18,4 @@ for (const char of text) {
         .replaceAll("1", "wa");
     output.push(awascii);
 }
-console.log(output.join(""))
+console.log(output.join(""));
