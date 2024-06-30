@@ -1,6 +1,6 @@
 # jellyCTF-writeups
 
-Writeups for all the challenges I managed to complete for [jellyCTF](https://jellyc.tf).
+Writeups for all the challenges I managed to complete for [jellyCTF](https://github.com/jellyctf/challenges).
 
 ## Info
 
@@ -57,7 +57,5 @@ This was the first CTF I've ever participated in, but I managed to solve more ch
 
 ## Links
 
-- [jellyCTF website](https://jellyc.tf)
 - [Jelly Hoshiumi's jellyCTF stream](https://www.youtube.com/live/QH8LKkIVHzI)
-- [My team](https://jellyc.tf/teams/373)
 - [Offical solutions and source code](https://github.com/jellyctf/challenges)
